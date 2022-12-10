@@ -1,9 +1,8 @@
-import { fireEvent, render, screen } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
 import { it, expect } from "vitest";
+import { render, screen, userEvent } from '../utils/test-utils'
 
 import { vi } from 'vitest';
-import { Assignment } from '../components/Assignment'
+import { Assignment } from './Assignment'
 
 export const assignmentsMock = [
     {
