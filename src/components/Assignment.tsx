@@ -1,5 +1,5 @@
 import Edit from '@mui/icons-material/Edit';
-import {Button, Col, List, Popconfirm, Row} from 'antd';
+import {Button, Col, List, Popconfirm, Row} from 'antd/es';
 import dayjs from 'dayjs';
 import React from 'react';
 import styled from 'styled-components';
